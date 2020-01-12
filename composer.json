@@ -1,0 +1,19 @@
+{
+	"name": "vehicles/website",
+	"description": "The website project to show vehicles.",
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"vehicles\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=7.2.0"
+	},
+	"require-dev": {
+		"codeception/base": "^3.1.0",
+		"codeception/specify": "~1.2.0",
+		"codeception/verify": "~1.2.0",
+		"phpunit/phpunit": "~8.5.2"
+	}
+}
